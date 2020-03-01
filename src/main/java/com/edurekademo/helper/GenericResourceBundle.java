@@ -11,7 +11,7 @@ public class GenericResourceBundle {
 		while (keys.hasMoreElements()) {
 			
 			String key =  keys.nextElement();
-			
+			String test = "Hello";
 			if(key.equalsIgnoreCase(source)){
 				value = rb.getString(key);
 			}
